@@ -10,7 +10,6 @@ const Advice = () => {
     const getAdvice = () => {
         axios.get('https://api.adviceslip.com/advice ')
             .then(response => {
-                console.log(response.data.slip.advice);
                 setAdvice(response.data.slip)
             });
     }
