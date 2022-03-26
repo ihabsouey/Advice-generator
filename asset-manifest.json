@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Advice-generator/static/css/main.ed56c87b.css",
-    "main.js": "/Advice-generator/static/js/main.9ccc113a.js",
+    "main.js": "/Advice-generator/static/js/main.f36de5c7.js",
     "static/js/787.028157ea.chunk.js": "/Advice-generator/static/js/787.028157ea.chunk.js",
     "index.html": "/Advice-generator/index.html",
     "static/media/icon-dice.svg": "/Advice-generator/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
     "static/media/pattern-divider-desktop.svg": "/Advice-generator/static/media/pattern-divider-desktop.ed9685263f6b47d21c8848f7d8bdd10e.svg",
     "static/media/pattern-divider-mobile.svg": "/Advice-generator/static/media/pattern-divider-mobile.aca38726412164df099c.svg",
     "main.ed56c87b.css.map": "/Advice-generator/static/css/main.ed56c87b.css.map",
-    "main.9ccc113a.js.map": "/Advice-generator/static/js/main.9ccc113a.js.map",
+    "main.f36de5c7.js.map": "/Advice-generator/static/js/main.f36de5c7.js.map",
     "787.028157ea.chunk.js.map": "/Advice-generator/static/js/787.028157ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ed56c87b.css",
-    "static/js/main.9ccc113a.js"
+    "static/js/main.f36de5c7.js"
   ]
 }
