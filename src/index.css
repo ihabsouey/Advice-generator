@@ -1,13 +1,71 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(218, 23%, 16%);
+  text-align: center;
 }
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+.advice{
+  width: 30%;
+  min-width: 550px;
+  height: fit-content;
+  background-color: hsl(217, 19%, 24%);
+  position: relative;
+  border-radius: 10px;
+  padding: 40px 60px;
+}
+.advice-content{
+ color:  hsl(193, 38%, 86%);
+ font-size: 28px;
+}
+.advice-header{
+  color: hsl(150, 100%, 66%);
+  margin: 10px;
+}
+.advice-footer img{
+  margin-top  : 40px;
+  margin-bottom  : 20px;
+  width: 100%;
+  
+}
+.advice-change{
+  text-align: center;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:50px;
+  bottom: -24px;
+  left:  calc(50% - 24px);
+  height: 50px;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  cursor: pointer;
+}
+.advice-change:hover{
+  box-shadow: 0 0 40px 5px hsl(150, 100%, 66%);
+}
+@media screen and (max-width : 700px) {
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  .advice{
+    width: 80%;
+    min-width: 10px !important;
+  padding: 20px 20px;
+
+  }
+  .advice-footer img{
+    content:url("images/pattern-divider-mobile.svg");
+  
+  }
+  
 }
